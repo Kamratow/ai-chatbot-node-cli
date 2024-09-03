@@ -4,3 +4,27 @@
 
 A basic CLI chatbot using OpenAI API - created to learn some basics of AI chatbots.
 Based on materials found here: https://www.youtube.com/watch?v=T-9-_1w82Jg&list=PLOvIwkWvHysNRNjLPcHHAWXrLzRkl__kR
+
+## How to run the project
+
+Before you run this project you will need to create an account on OpenAI platform portal:
+https://platform.openai.com/
+
+After you will have your account created make sure to create openai api key
+You can rely here either on personal API key (currently considered legacy) or project API key.
+After getting the key on the screen remember to copy it to a safe place as you won't be able to retrieve it again.
+Second value needed from OpenAI platform will be organization ID.
+
+When you will have everything set from the OpenAI side take both the API key and organization ID and save it in `.env` file which you will have to create on your own as this file is not versioned.
+
+Now is the time to install all the depenencies with npm command:
+
+```
+npm install
+```
+
+Finally you can run the app with this command:
+
+```
+node index.js
+```
