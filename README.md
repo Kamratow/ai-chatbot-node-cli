@@ -21,7 +21,6 @@ OPENAI_API_KEY="here-put-the-openai-API-key"
 OPENAI_ORGANIZATION_ID="here-put-the-organization-ID"
 ```
 
-
 Now is the time to install all the depenencies with npm command:
 ```
 npm install
